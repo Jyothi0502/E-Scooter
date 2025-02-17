@@ -15,7 +15,7 @@ const Hero = () => {
             the future.
           </h1>
           <img src={dicider}className="mt-20 lg:mt-28" alt="dicider" />
-          <p className="text-lg mt-6 w-90 break-words tracking-[.05rem]">
+          <p className="text-lg mt-6 w-90 break-words tracking-[.1rem]">
             Simple and sleek design with users in mind.
           </p>
           <div className="flex items-center gap-28 mt-6">
