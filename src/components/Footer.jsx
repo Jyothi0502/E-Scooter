@@ -5,6 +5,10 @@ import twitter from "/src/assets/icons/twitter.svg";
 import Link from '@mui/material/Link';
 
 const Footer = () => {
+    const handleSocialClick = (platform) => {
+        console.log(`${platform} icon clicked!`);
+    };
+
     return (
         <footer className="relative mt-32 footer-clr text-white py-10">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
@@ -37,15 +41,15 @@ const Footer = () => {
                                 <li><Link href="#" underline="none" color="inherit">Policy Disclaimer</Link></li>
                                 <li><Link href="#" underline="none" color="inherit">Company</Link></li>
                                 <div className="flex gap-4 justify-center sm:justify-start">
-                                    <img src={facebook} alt="Facebook" 
-                                         className="w-6 transition duration-300 hover:invert hover:brightness-150 cursor-pointer"
-                                         onClick={() => handleClick("facebook")} />
-                                    <img src={twitter} alt="Twitter" 
-                                         className="w-6 transition duration-300 hover:invert hover:brightness-150 cursor-pointer"
-                                         onClick={() => handleClick("twitter")} />
-                                    <img src={insta} alt="Instagram" 
-                                         className="w-6 transition duration-300 hover:invert hover:brightness-150 cursor-pointer"
-                                         onClick={() => handleClick("instagram")} />
+                                    <button onClick={() => handleSocialClick("Facebook")} className="cursor-pointer">
+                                        <img src={facebook} alt="Facebook" className="w-6 transition duration-300 hover:invert hover:brightness-150" />
+                                    </button>
+                                    <button onClick={() => handleSocialClick("Twitter")} className="cursor-pointer">
+                                        <img src={twitter} alt="Twitter" className="w-6 transition duration-300 hover:invert hover:brightness-150" />
+                                    </button>
+                                    <button onClick={() => handleSocialClick("Instagram")} className="cursor-pointer">
+                                        <img src={insta} alt="Instagram" className="w-6 transition duration-300 hover:invert hover:brightness-150" />
+                                    </button>
                                 </div>
                             </ul>
                         </div>

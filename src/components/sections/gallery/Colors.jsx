@@ -2,7 +2,7 @@ import Black from "/src/assets/images/black.svg";
 import Red from "/src/assets/images/red.svg";
 import Green from "/src/assets/images/green.svg";
 import Blue from "/src/assets/images/blue.svg";
-
+import vehicle2 from "/src/assets/images/vehicle2.svg";
 const Colors = () => {
   return (
     <div className="mt-40 relative flex flex-col items-center text-center text-clr">
@@ -10,7 +10,7 @@ const Colors = () => {
       <p className="text-lg font-light">Checkout our product colors.</p>
 
       <div className="relative mt-8 w-full flex justify-center">
-        <img src="/vehicle2.svg" alt="Product" width={500} height={300} className="w-auto h-auto" />
+        <img src={vehicle2} alt="Product" width={500} height={300} className="w-auto h-auto" />
         <div className="absolute -bottom-48 left-0 gap-1 hidden lg:flex flex-row">
           <img src={Blue} alt="Color 01" width={330} height={200} />
           <img src={Green} alt="Color 02" width={330} height={200} />

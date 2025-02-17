@@ -1,7 +1,7 @@
 import { useState } from "react";
-import user1 from "/src/assets/User1.png";
-import user2 from "/src/assets/User2.png";
-import user3 from "/src/assets/User3.png";
+import user1 from "/src/assets/images/User1.png";
+import user2 from "/src/assets/images/User2.png";
+import user3 from "/src/assets/images/User3.png";
 import leftarrow from "/src/assets/icons/leftarrow.svg";
 import rightarrow from "/src/assets/icons/rightarrow.svg";
 import Shape from "/src/assets/icons/Shape.svg";

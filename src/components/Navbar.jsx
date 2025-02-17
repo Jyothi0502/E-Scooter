@@ -1,4 +1,5 @@
 import * as React from "react";
+import logo from "/src/assets/icons/logo.svg";
 import { Stack, Button, Box, Divider, Menu, MenuItem, Drawer, IconButton, List, ListItem, ListItemText } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -36,7 +37,7 @@ const Navbar = () => {
           height:0,
         }}
       >
-        <img src="logo.svg" className="logo" alt="logo" width={50} />
+        <img src={logo} className="logo" alt="logo" width={50} />
         <Box sx={{ display: { xs: "none", md: "flex" }, gap: 8 }}>
           <Button
             id="basic-button"
