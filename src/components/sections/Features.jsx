@@ -22,7 +22,7 @@ const Features = () => {
                 <p className="mt-4 text-sm">Hill Climbing</p>
             </div>
             <div className="h-32 text-center p-6 shadow-2xl rounded-lg flex flex-col justify-center items-center">
-                <p className="font-bold">2x</p>
+                <p className="font-bold text-4xl">2x</p>
                 <p className="mt-4 text-sm">Hydraulic Disc Brakes</p>
             </div>
         </div>
